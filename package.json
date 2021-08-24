@@ -1,0 +1,28 @@
+{
+  "name": "rest_api",
+  "version": "1.0.0",
+  "description": "rest",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "keywords": [
+    "rest",
+    "api"
+  ],
+  "author": "G`olib Narzullayev <gnarzullayev2000@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "mongoose": "^5.13.5",
+    "morgan": "^1.10.0",
+    "superagent": "^6.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
